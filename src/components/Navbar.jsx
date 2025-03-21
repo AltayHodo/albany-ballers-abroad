@@ -8,7 +8,7 @@ export default function Navbar() {
       <h1>Albany Ballers Abroad</h1>
 
       <div className={styles.navLinks}>
-        <Link to="/">Home page</Link>
+        <Link to="/">Home</Link>
         <Link to="/team">Team</Link>
         <Link to="/contact">Contact</Link>
       </div>

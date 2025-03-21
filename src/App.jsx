@@ -1,6 +1,7 @@
 import styles from './styles/App.module.css';
 import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 import './styles/global.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       {isHomePage && (
         <div className={styles.heroSection}>
           <img
@@ -24,10 +26,10 @@ function App() {
       </div> */}
         </div>
       )}
-      <Navbar />
       <main>
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 }

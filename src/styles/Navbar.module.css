@@ -1,5 +1,5 @@
 .nav {
-  position: absolute; 
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
@@ -7,7 +7,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  z-index: 3; 
+  z-index: 1000; 
+  /* background-color: rgba(255, 255, 255, 0.9); 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);  */
+
 }
 
 .navLinks {
@@ -24,4 +27,8 @@
 
 .navLinks a:hover {
   text-decoration: underline;
+}
+
+.nav + main {
+  margin-top: 80px; 
 }
