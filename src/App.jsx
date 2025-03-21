@@ -1,16 +1,35 @@
-import styles from './styles/App.module.css'
-import { Outlet } from 'react-router-dom'
-import Navbar from './components/Navbar'
+import styles from './styles/App.module.css';
+import { Outlet, useLocation } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import './styles/global.css';
 
 function App() {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
   return (
     <>
-      <h1>Albany Ballers Abroad</h1>
-      <img className={styles.logo} src="/logo.png" alt="logo" />
+      {isHomePage && (
+        <div className={styles.heroSection}>
+          <img
+            className={styles.mainImage}
+            src="/image-1.png"
+            alt="background"
+          />
+
+          {/* <div className={styles.heroContent}>
+        <p>Sustainability</p>
+        <h1>Starts With You</h1>
+        <a href="#" className={styles.heroButton}>Learn More</a>
+      </div> */}
+        </div>
+      )}
       <Navbar />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
