@@ -1,9 +1,30 @@
-.profile{
-  width: 400px;
+.profile {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
-.profile img{
-  width: 300px;
-  height: 300px;
+.profileImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
   object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  padding: 10px;
+  line-height: 1.4;
 }

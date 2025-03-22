@@ -6,6 +6,9 @@
 
 :root{
   --logo-red: #fa2f1b;
+  --gray-1: #333;  
+  --gray-2: #555; 
+  --background-light: rgba(255, 255, 255, 0.9); 
 }
 
 

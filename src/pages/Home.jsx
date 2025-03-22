@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.textContainer}>
           <h2>Our Organization</h2>
           <p>Find out about more about our project!</p>
-          <Link to="/about" className={styles.button}>Learn More</Link>
+          <Link to="/" className={styles.button}>Learn More</Link>
         </div>
       </section>
 
@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.textContainer}>
           <h2>Our Community</h2>
           <p>We bring people together through the love of basketball and community outreach.</p>
-          <Link to="/community" className={styles.button}>Join Us</Link>
+          <Link to="/" className={styles.button}>Join Us</Link>
         </div>
         <img src="/image-3.JPG" alt="community gathering" />
       </section>

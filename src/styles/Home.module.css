@@ -20,7 +20,7 @@
 
 .topSection p {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--gray-2);
   line-height: 1.6;
 }
 
@@ -56,7 +56,7 @@
 
 .textContainer p {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--gray-2);
   line-height: 1.6;
 }
 
@@ -64,7 +64,7 @@
   display: inline-block;
   margin-top: 15px;
   padding: 12px 24px;
-  background-color: #333;
+  background-color: var(--gray-1);
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -73,5 +73,5 @@
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: var(--gray-2);
 }
