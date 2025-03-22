@@ -12,6 +12,7 @@ export default function Profile({ name, description, image1, image2 }) {
         className={styles.profileImage}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
+        loading="lazy"
       />
       <h2 className={styles.name}>{name}</h2>
       <p className={styles.description}>{description}</p>

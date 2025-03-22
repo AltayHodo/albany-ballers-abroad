@@ -15,8 +15,9 @@ function App() {
         <div className={styles.heroSection}>
           <img
             className={styles.mainImage}
-            src="/image-1.png"
+            src="/image-1.webp"
             alt="background"
+            loading="lazy"
           />
         </div>
       )}

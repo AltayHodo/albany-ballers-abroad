@@ -9,14 +9,14 @@ export default function Team() {
         <Profile
           name="Daniel Peterson"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque aliquam, reprehenderit eaque id rem fugiat ea, adipisci libero maiores dolorum sit amet deleniti non doloremque rerum? Officiis, accusamus atque."
-          image1="/dp-1.png"
-          image2="/dp-2.JPEG"
+          image1="/dp-1.webp"
+          image2="/dp-2.webp"
         />
         <Profile
           name="Altay Hodoglugil"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque aliquam, reprehenderit eaque id rem fugiat ea, adipisci libero maiores dolorum sit amet deleniti non doloremque rerum? Officiis, accusamus atque."
-          image1="/altay-1.png"
-          image2="/altay-2.png"
+          image1="/altay-1.webp"
+          image2="/altay-2.webp"
         />
       </div>
     </div>

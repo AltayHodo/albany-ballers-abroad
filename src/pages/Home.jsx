@@ -12,7 +12,7 @@ export default function Home() {
       </section>
 
       <section className={`${styles.section} ${styles.imageLeft}`}>
-        <img src="/image-2.png" alt="group photo" />
+        <img src="/image-2.webp" alt="group photo" loading="lazy" />
         <div className={styles.textContainer}>
           <h2>Our Organization</h2>
           <p>Find out about more about our project!</p>
@@ -26,11 +26,11 @@ export default function Home() {
           <p>We bring people together through the love of basketball and community outreach.</p>
           <Link to="/contact" className={styles.button}>Contact Us</Link>
         </div>
-        <img src="/image-3.JPG" alt="community gathering" />
+        <img src="/image-3.webp" alt="community gathering" loading="lazy" />
       </section>
 
       <section className={`${styles.section} ${styles.imageLeft}`}>
-        <img src="/image-5.JPG" alt="action shot" />
+        <img src="/image-5.webp" alt="action shot" loading="lazy" />
         <div className={styles.textContainer}>
           <h2>Take Action</h2>
           <p>Want to support us? Become a contributor to our mission.</p>
