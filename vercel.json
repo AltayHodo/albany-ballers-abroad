@@ -4,8 +4,16 @@
       "source": "/(.*)",
       "headers": [
         { "key": "Content-Encoding", "value": "gzip" },
+        { "key": "Accept-Encoding", "value": "gzip, deflate, br" },
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/old-page",
+      "destination": "/new-page",
+      "permanent": true
     }
   ]
 }
