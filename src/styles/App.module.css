@@ -1,6 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .heroSection {
-  position: relative;  
-  height: 100vh; 
+  position: relative;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -11,38 +31,5 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; 
+  z-index: -1;
 }
-
-/* .heroContent {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  z-index: 2; 
-}
-
-.heroContent h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.heroButton {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: rgba(255, 255, 255, 0.3); 
-  border: 2px solid white;
-  border-radius: 5px;
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.heroButton:hover {
-  background-color: white;
-  color: black;
-} */

@@ -11,6 +11,7 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/team">Team</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/donate">Donate</Link>
       </div>
     </nav>
 

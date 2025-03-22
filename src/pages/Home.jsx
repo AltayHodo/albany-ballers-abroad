@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.textContainer}>
           <h2>Our Community</h2>
           <p>We bring people together through the love of basketball and community outreach.</p>
-          <Link to="/" className={styles.button}>Join Us</Link>
+          <Link to="/contact" className={styles.button}>Contact Us</Link>
         </div>
         <img src="/image-3.JPG" alt="community gathering" />
       </section>
@@ -33,8 +33,8 @@ export default function Home() {
         <img src="/image-5.JPG" alt="action shot" />
         <div className={styles.textContainer}>
           <h2>Take Action</h2>
-          <p>Ready to take the next step? Become a contributor or participate in our mission.</p>
-          <Link to="/" className={styles.button}>Find Out How</Link>
+          <p>Want to support us? Become a contributor to our mission.</p>
+          <Link to="/donate" className={styles.button}>Donate</Link>
         </div>
       </section>
     </div>

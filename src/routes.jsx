@@ -2,6 +2,7 @@ import App from './App';
 import Home from './pages/Home';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import Donate from './pages/Donate';
 import ErrorPage from './pages/ErrorPage';
 
 const routes = [
@@ -23,8 +24,12 @@ const routes = [
         element: <Team />,
       },
       {
-        path: 'contact',
+        path: '/contact',
         element: <Contact />,
+      },
+      {
+        path: '/donate',
+        element: <Donate />,
       },
     ],
   },

@@ -1,7 +1,7 @@
 import styles from './styles/App.module.css';
 import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 import './styles/global.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   const isHomePage = location.pathname === '/';
 
   return (
-    <>
+    <div className={styles.container}>
       <Navbar />
       {isHomePage && (
         <div className={styles.heroSection}>
@@ -18,19 +18,13 @@ function App() {
             src="/image-1.png"
             alt="background"
           />
-
-          {/* <div className={styles.heroContent}>
-        <p>Sustainability</p>
-        <h1>Starts With You</h1>
-        <a href="#" className={styles.heroButton}>Learn More</a>
-      </div> */}
         </div>
       )}
-      <main>
+      <main className={styles.mainContent}>
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
