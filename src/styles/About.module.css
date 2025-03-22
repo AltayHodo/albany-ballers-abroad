@@ -1,0 +1,7 @@
+.about{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 30px;
+  height: 100%;
+}

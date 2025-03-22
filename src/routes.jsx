@@ -1,6 +1,7 @@
 import App from './App';
 import Home from './pages/Home';
 import Team from './pages/Team';
+import About from './pages/About';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
 import ErrorPage from './pages/ErrorPage';
@@ -18,6 +19,10 @@ const routes = [
       {
         path: '/home',
         element: <Home />,
+      },
+      {
+        path: '/about',
+        element: <About />,
       },
       {
         path: '/team',

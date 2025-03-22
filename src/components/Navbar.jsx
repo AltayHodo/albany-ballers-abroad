@@ -9,6 +9,7 @@ export default function Navbar() {
 
       <div className={styles.navLinks}>
         <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
         <Link to="/team">Team</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/donate">Donate</Link>
