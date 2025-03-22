@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.textContainer}>
           <h2>Our Organization</h2>
           <p>Find out about more about our project!</p>
-          <Link to="/" className={styles.button}>Learn More</Link>
+          <Link to="/about" className={styles.button}>Learn More</Link>
         </div>
       </section>
 

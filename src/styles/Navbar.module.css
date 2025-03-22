@@ -23,11 +23,21 @@
   text-decoration: none;
   font-size: 18px;
   transition: 0.3s;
+  transition: color 0.1s ease-in-out, border-bottom 0.1s ease-in-out; 
 }
 
-.navLinks a:hover {
+.navLinks a:not(.activeLink):hover {
   text-decoration: underline;
 }
+
+.activeLink {
+  font-weight: bold;
+  border-bottom: 2px solid; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+
+}
+
 
 .nav + main {
   margin-top: 80px; 
