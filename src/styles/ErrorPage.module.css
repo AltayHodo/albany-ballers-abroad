@@ -1,0 +1,29 @@
+.errorContainer {
+  text-align: center;
+  padding: 50px;
+}
+
+.errorContainer h1 {
+  font-size: 2.5rem;
+}
+
+.errorContainer p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.homeButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #555;
+}
