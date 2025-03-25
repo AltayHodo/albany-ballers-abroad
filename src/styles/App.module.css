@@ -35,3 +35,18 @@ body {
   left: 0;
   z-index: -1;
 }
+
+
+@media (max-width: 768px) {
+  .heroSection {
+    height: auto;
+    position: relative;
+  }
+  .mainImage {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+    object-position: center;
+  }
+}

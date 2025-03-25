@@ -45,3 +45,14 @@ h1{
 .nav + main {
   margin-top: 80px; 
 }
+
+
+@media (max-width: 768px) {
+  .nav{
+    flex-direction: column;
+  }
+
+  h1{
+    margin-bottom: 10px;
+  }
+}
