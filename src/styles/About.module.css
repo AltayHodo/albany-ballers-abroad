@@ -1,7 +1,28 @@
-.about{
+.aboutContainer {
   display: flex;
-  justify-content: center;
-  padding: 20px;
-  font-size: 30px;
-  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.aboutContainer img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.6;
 }

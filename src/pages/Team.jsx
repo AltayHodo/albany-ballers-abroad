@@ -7,7 +7,7 @@ export default function Team() {
       <h1 className={styles.title}>Meet Our Team</h1>
       <div className={styles.teamGrid}>
         <Profile
-          name="Jeysson "
+          name="Jeysson Diego Alexander Montufar "
           description="Top 5 people ever."
           image1="/jason-1.webp"
           image2="/jason-2.webp"
