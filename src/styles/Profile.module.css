@@ -28,3 +28,8 @@
   padding: 10px;
   line-height: 1.4;
 }
+
+.linkWrapper{
+  text-decoration: none;
+  color: inherit;
+}

@@ -29,6 +29,14 @@ export default function Team() {
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque aliquam, reprehenderit eaque id rem fugiat ea, adipisci libero maiores dolorum sit amet deleniti non doloremque rerum? Officiis, accusamus atque."
           image1="/herbie-1.webp"
           image2="/herbie-2.webp"
+          videoUrl="/beau-matt-video.html"
+        />
+        <Profile
+          name="Beau Jones"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque aliquam, reprehenderit eaque id rem fugiat ea, adipisci libero maiores dolorum sit amet deleniti non doloremque rerum? Officiis, accusamus atque."
+          image1="/beau-1.webp"
+          image2="/beau-2.webp"
+          videoUrl="/beau-matt-video.html"
         />
       </div>
     </div>
