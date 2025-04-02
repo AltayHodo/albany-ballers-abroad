@@ -22,7 +22,7 @@ export default function Contact() {
     setStatus('Sending...');
 
     try {
-      const response = await fetch('https://albany-ballers-abroad.onrender.com', {
+      const response = await fetch('https://albany-ballers-abroad.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
