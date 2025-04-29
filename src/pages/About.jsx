@@ -63,11 +63,10 @@ export default function About() {
             </p>
             <p>
               In addition to running the basketball camp, we partner with
-              <a href="https://partnerforsurgery.org/" target="_blank"> Partner for Surgery</a>
+              <a href="https://partnerforsurgery.org/" target="_blank"> Partner for Surgery</a>{' '}
               to help support their mission of providing surgical care to those
               in need in rural Guatemala. Through fundraising efforts and
-              on-the-ground support, we are proud to contribute to this health
-              initiative in the community we love so much.
+              on-the-ground support, we are proud to help out the community we love so much.
             </p>
             <p>
               At Albany Ballers Abroad, our mission is simple: to connect
