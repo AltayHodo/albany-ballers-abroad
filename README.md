@@ -1,1 +1,1 @@
-Albany Basketball Abroad- check out our website: https://www.albanyballersabroad.org/
+Albany Ballers Abroad- check out our website: https://www.albanyballersabroad.org/
