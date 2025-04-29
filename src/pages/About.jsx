@@ -1,14 +1,48 @@
+import { useEffect, useState } from 'react';
 import styles from '../styles/About.module.css';
 import Team from './Team';
 
+const images = [
+  '/slide-1.webp',
+  '/slide-2.webp',
+  '/slide-3.webp',
+  '/slide-4.webp',
+  '/slide-5.webp',
+];
+
 export default function About() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <div className={styles.aboutContainer}>
         <h2 className={styles.title}>About Us</h2>
         <main className={styles.main}>
-          <div className={styles.imagesContainer}>
-            <img src="/image-6.webp" alt="group photo" loading="lazy" />
+          <div className={styles.carousel}>
+            <img
+              src={images[currentIndex]}
+              alt="carousel"
+              className={styles.carouselImage}
+              loading="lazy"
+            />
+            <div className={styles.dotsContainer}>
+              {images.map((_, index) => (
+                <div
+                  key={index}
+                  className={`${styles.dot} ${index === currentIndex ? styles.activeDot : ''}`}
+                />
+              ))}
+            </div>
           </div>
 
           <div className={styles.description}>
@@ -41,7 +75,6 @@ export default function About() {
               positive impact.
             </p>
           </div>
-
         </main>
       </div>
       <Team />
