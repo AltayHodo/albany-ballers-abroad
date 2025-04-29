@@ -8,13 +8,13 @@ export default function Team() {
       <div className={styles.teamGrid}>
         <Profile
           name="Jeysson Diego Alexander Montufar "
-          description="Top 5 people ever."
+          description="Jeysson is the coordinator of our camp in Guatemala and an English teacher at Instituto Mixto Valle de los Olivos, the school where it takes place. He does everything from organizing the camp, translating languages, and bringing great positive energy. Without his leadership and dedication, the camp wouldn't be possible. We’re incredibly lucky to have him as part of our team!"
           image1="/jason-1.webp"
           image2="/jason-2.webp"
         />
         <Profile
           name="Daniel Peterson"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque aliquam, reprehenderit eaque id rem fugiat ea, adipisci libero maiores dolorum sit amet deleniti non doloremque rerum? Officiis, accusamus atque."
+          description="Daniel Peterson studies Business Economics and International Studies at UC Irvine. He loves talking to the kids in broken Spanish and especially enjoys when they correct him. When he’s not playing basketball, he’s either watching it, at the beach, or getting food with friends."
           image1="/dp-1.webp"
           image2="/dp-2.webp"
         />
