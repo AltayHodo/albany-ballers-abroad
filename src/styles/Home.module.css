@@ -24,6 +24,15 @@
   line-height: 1.6;
 }
 
+.topSection a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.topSection a:hover {
+  text-decoration: underline;
+}
+
 .section {
   display: flex;
   align-items: center;

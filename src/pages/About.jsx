@@ -62,8 +62,8 @@ export default function About() {
               all the friends we’ve made along the way.
             </p>
             <p>
-              In addition to running the basketball camp, we partner with{' '}
-              <a href="https://partnerforsurgery.org/"> Partner for Surgery</a>{' '}
+              In addition to running the basketball camp, we partner with
+              <a href="https://partnerforsurgery.org/" target="_blank"> Partner for Surgery</a>
               to help support their mission of providing surgical care to those
               in need in rural Guatemala. Through fundraising efforts and
               on-the-ground support, we are proud to contribute to this health
