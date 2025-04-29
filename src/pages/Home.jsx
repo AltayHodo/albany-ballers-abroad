@@ -10,7 +10,11 @@ export default function Home() {
           Albany Ballers Abroad is a nonprofit dedicated to connecting with
           youth in rural Guatemala through basketball, while also supporting
           access to vital healthcare services through our partnership with
-          <a href="https://partnerforsurgery.org/" target="_blank"> Partner for Surgery</a>.
+          <a href="https://partnerforsurgery.org/" target="_blank">
+            {' '}
+            Partner for Surgery
+          </a>
+          . Learn more at our <Link to="/about">About Page</Link>!
         </p>
       </section>
 
