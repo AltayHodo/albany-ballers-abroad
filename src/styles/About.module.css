@@ -32,10 +32,22 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.carousel {
+/* .carousel {
   width: 100%;
   max-width: 500px;
   height: 500px; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+} */
+.carousel {
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 1 / 1; /* 👈 maintain a perfect square */
   overflow: hidden;
   display: flex;
   align-items: center;

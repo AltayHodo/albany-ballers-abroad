@@ -20,7 +20,7 @@ export default function Team() {
         />
         <Profile
           name="Altay Hodoglugil"
-          description="Altay Hodoglugil is a student at UC Berkeley, studying computer science. His favorite part of the camp is playing soccer against the kids on the last day, and get absolutely smoked by them. Outside of basketball, you’ll find him in the gym, playing pickleball, or watching the Warriors."
+          description="Altay Hodoglugil is a student at UC Berkeley, studying computer science. His favorite part of the camp is playing soccer against the kids on the last day, and getting absolutely smoked by them. Outside of basketball, you’ll find him in the gym, playing pickleball, or watching the Warriors."
           image1="/altay-1.webp"
           image2="/altay-2.webp"
         />

@@ -33,7 +33,6 @@ export default function About() {
               src={images[currentIndex]}
               alt="carousel"
               className={styles.carouselImage}
-              loading="lazy"
             />
             <div className={styles.dotsContainer}>
               {images.map((_, index) => (
