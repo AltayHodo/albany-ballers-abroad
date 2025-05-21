@@ -26,14 +26,14 @@ export default function Team() {
         />
         <Profile
           name="Herbert Matthew Belloso Hernandez"
-          description="Matthew Belloso Hernandez is a student at Cal State Fullerton, studying Kinesiology. He loves to bond with the students and translate from Spanish to English for the coaches. When he’s not playing basketball, he is watching basketball, studying, or hanging out with friends."
+          description="Matthew Belloso Hernandez is a student at Cal State Fullerton studying Kinesiology. He loves to bond with the students and translate from Spanish to English for the coaches. When he’s not playing basketball, he is watching basketball, studying, or hanging out with friends."
           image1="/herbie-1.webp"
           image2="/herbie-2.webp"
           videoUrl="/beau-matt-video.html"
         />
         <Profile
           name="Beau Jones"
-          description="Beau jones is a student at cal state Fullerton studying civil engineering. He loves it when the kids call him “BOOOO” instead of Beau, and teaching kids the fundamentals of basketball. Outside of hooping, he loves to go to concerts, hang out with friends, and going to the beach."
+          description="Beau jones is a student at cal state Fullerton studying business finance. He loves it when the kids call him “BOOOO” instead of Beau, and teaching kids the fundamentals of basketball. Outside of hooping, he loves to go to concerts, hang out with friends, and going to the beach."
           image1="/beau-1.webp"
           image2="/beau-2.webp"
           videoUrl="/beau-matt-video.html"
